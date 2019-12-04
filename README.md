@@ -1,3 +1,9 @@
+## Css Animation Tutorial
+
+### `use of keyframes and animation properties`
+
+Demonstration of Css animation instructions from [this youtube video](https://www.youtube.com/watch?v=zHUpx90NerM). 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
