@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import CssAniToot from './components/CssAniToot'
+import Parallelogram from './components/Parallelogram'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <h1>CSS ANIMATION TUTORIAL</h1>
       </header>
       <CssAniToot />
+      <Parallelogram />
     </div>
   );
 }
