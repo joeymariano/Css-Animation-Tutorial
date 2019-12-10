@@ -1,17 +1,23 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
 import CssAniToot from './components/CssAniToot'
 import Parallelogram from './components/Parallelogram'
+import { Container, Row, Col } from 'reactstrap'
+import Header from './components/Header'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <h1>CSS ANIMATION TUTORIAL</h1>
-      </header>
-      <CssAniToot />
-      <Parallelogram />
-    </div>
+    <Container className="app">
+			<Header />
+			<Row>
+				<Col>
+					<CssAniToot />
+				</Col>
+				<Col>
+					<Parallelogram color="green" text="START"/>
+					<Parallelogram color="red" text="STOP"/>
+				</Col>
+			</Row>
+    </Container>
   );
 }
 

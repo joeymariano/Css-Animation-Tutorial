@@ -1,9 +1,18 @@
 .parallelogram {
- margin:5px 0 5px 20px;
- width: 150px;
- height: 100px;
- -webkit-transform: skew(20deg);
- -moz-transform: skew(20deg);
- -o-transform: skew(20deg);
- background: #abcdef;
+	display: inline-flex;
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	background: #33ff88;
+	margin: 20px 20px 0 40px;
+}
+
+.parallelogram-text {
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	font-size: 2em;
+	font-style: italic;
+	font-weight: 600;
+	padding: 0 .75em .15em .75em;
 }

@@ -20,22 +20,22 @@
 
   25% {
     background-color: red;
-    left:300px;
+    left:48%;
     top:0px;
     border-radius: 50% 0 0 0;
   }
 
   50% {
     background-color: green;
-    left:300px;
-    top:300px;
+    left:48%;
+    top:48%;
     border-radius: 50% 50% 0 0;
   }
 
   75% {
     background-color: blue;
     left:0px;
-    top:300px;
+    top:48%;
     border-radius: 50% 50% 50% 0;
   }
 
