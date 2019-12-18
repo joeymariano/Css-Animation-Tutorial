@@ -10,9 +10,9 @@ export default function Parallelogram(props){
 	};
 
 	return(
-				<div class="parallelogram" style={ parallelogramColor(props.color) }>
-					<div class="parallelogram-text">{ props.text }</div>
-		 		</div>
+				<Button className="parallelogram" style={ parallelogramColor(props.color) }>
+					<div className="parallelogram-text">{ props.text }</div>
+		 		</Button>
 	)
 }
 

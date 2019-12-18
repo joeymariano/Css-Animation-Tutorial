@@ -10,6 +10,10 @@
   animation-timing-function: ease-in-out;
 }
 
+.box.off {
+  animation-name: none; 
+}
+
 @keyframes boxAni {
   0% {
     background-color: white;
