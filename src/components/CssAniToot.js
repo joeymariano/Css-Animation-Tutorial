@@ -7,7 +7,7 @@ export default function CssAniToot(props) {
 	// turn animation on and off by adding css class 'off'
 
 	let boxSwitch = () => {  	
-		if (!props.hasOwnProperty('animate')) {
+		if (props.animate === true) {
 			return 'box'
 		} else {
 			return 'box off'
