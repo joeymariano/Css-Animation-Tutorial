@@ -27,8 +27,8 @@ class App extends Component {
 						<CssAniToot animate={ this.state.animate }/>
 					</Col>
 					<Col>
-						<Parallelogram color="green" text="START"/>
-						<Parallelogram color="red" text="STOP"/>
+						<Parallelogram aniSwitch={ this.aniSwitch } color="green" text="START"/>
+						<Parallelogram aniSwitch={ this.aniSwitch } color="red" text="STOP"/>
 					</Col>
 				</Row>
 	    </Container>
