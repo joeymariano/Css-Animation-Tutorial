@@ -1,6 +1,6 @@
 import React from 'react'
 import './Parallelogram.css'
-import { Col, Button } from 'reactstrap'
+import { Button } from 'reactstrap'
 
 
 

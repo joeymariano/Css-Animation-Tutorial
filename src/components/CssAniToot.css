@@ -12,6 +12,10 @@
 
 .box.off {
   animation-name: none; 
+  background-color: red;
+  left: 0px;
+  top: 0px;
+  border-radius: 0 0 0 0;
 }
 
 @keyframes boxAni {

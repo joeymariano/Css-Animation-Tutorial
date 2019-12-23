@@ -4,7 +4,8 @@
 	-moz-transform: skew(20deg);
 	-o-transform: skew(20deg);
 	background: #33ff88;
-	margin: 20px 20px 0 40px;
+	margin: 0 20px 0 40px;
+	border-radius: 0 !important;
 }
 
 .parallelogram-text {

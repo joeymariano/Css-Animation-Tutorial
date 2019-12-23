@@ -1,10 +1,21 @@
 import React from 'react'
 import './CssAniToot.css'
-import { Col } from 'reactstrap'
 
-export default function CssAniToot() {
+export default function CssAniToot(props) {
+
+	// props.animate is either true or false determining animation boolean
+	// turn animation on and off by adding css class 'off'
+
+	let boxSwitch = () => {  	
+		if (!props.hasOwnProperty('animate')) {
+			return 'box'
+		} else {
+			return 'box off'
+			}
+	}
+
 	return(
-		<div class="box">
+		<div className={ boxSwitch() }>
  		</div>
 	)
 }
